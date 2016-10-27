@@ -1,0 +1,25 @@
+{
+  "name": "izochi",
+  "homepage": "https://github.com/ClarabelleCheng-Yue/public",
+  "authors": [
+    "ClarabelleCheng-Yue"
+  ],
+  "description": "i zo chi",
+  "main": "",
+  "keywords": [
+    "i",
+    "zo",
+    "chi"
+  ],
+  "license": "UNLICENSED",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-route": "1.5.8",
+    "underscore": "^1.8.3"
+  }
+}
