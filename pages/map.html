@@ -1,0 +1,20 @@
+<div ng-controller="TestCtrl">
+  Hello, I am coming from public/pages/map.html<br><br>
+
+  Please type: command option I<br>
+
+  You should see the console pop up on the right side of your screen ----><br>
+
+  Let Cbelle know what it says.<br><br>
+
+  Now, on to how this page came to be:<br>
+  1. all the page routing is done in the controllers folder.<br><br>
+  2. inside controllers folder, the document is set up to be an angular "module"<br><br>
+    - a module is like a special portion of entire app specialized for a unique function,
+      ... but Cbelle was too lazy to make many modules, so Cbelle made entire document a module.
+  <br><br>3. Looking at index.html, the "ng-view" key word allows html pages to switch in and out
+      of that element's inner html. Switching is activated upon user interaction and the 
+      routing that was set up in controllers folder.
+<br><br>
+  .... and that's how I came to be.
+</div>
