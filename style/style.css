@@ -1,12 +1,53 @@
+@font-face {
+  font-family: "Ultima-Hairline";
+  src: url("./fonts/ultima_pd/UltimaPDaa-Hairline.ttf") format('truetype');
+}
+
 body {
   margin: 0 auto;
 }
 
-div {
-  
+div .red {
+  border: 4px solid red;
 }
 
-span {
+.login-header {
+  font-family: "Ultima-Hairline";
+  position: relative;
+  font-size: 35vh;
+  text-align: center;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
 
+.login-form {
+  position: absolute;
+  height: 50vh;
+  width: 50vh;
+  left: 39%;
+  top: 40%;
+  background-color: #dfdfdf;
+  border-radius: 300px;
+}
+
+.login-input {
+  position: relative;
+  text-align: center;
+  margin: 5%;
+  top: 27%;
+  left: 19%;
+  width: 50%;
+  height: 10%;
+  display: block;
+}
+
+.login-input[type="submit"] {
+  position: relative;
+  width: 25%;
+  left: 33%;
+  background-color: #afafaf;
+  color: white;
+  border-style: none;
 }
 
