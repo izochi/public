@@ -18,6 +18,35 @@ izochi.controller('TestCtrl', function($scope) {
 });
 
 izochi.controller('LoginCtrl', function($scope) {
+  /*
+  ANIMATE TYPING HEADER
+  */
+  //collection of characters to type
+  var eng = ['I', 'z', 'o', 'c', 'h', 'i'];
+
+  /*
+  type: adds a character to inner html of header element
+  */
+  var type = function() {
+    var toType = eng.shift();
+    document.getElementsByClassName('login-header')[0].innerHTML += toType;
+  }
+
+  /*
+  loopedTyping: simulates typing
+  */
+  var loopTimer;
+  var loopedTyping = function() {
+    if (eng.length > 0) {
+      type();
+    } else {
+      clearTimeout(loopTimer);
+    }
+    loopTimer = setTimeout(loopedTyping.bind(null, eng), 90);
+  }
+
+  loopedTyping();
+
   console.log('hello from login page!');
 });
 
