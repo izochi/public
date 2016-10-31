@@ -28,25 +28,39 @@ div .red {
   width: 50vh;
   left: 28%;
   top: 40%;
+  background-color: white;
+  border: 5px solid #dfdfdf;
+  border-radius: 50vh;
+}
+
+.inputs-container {
+  position: relative;
+  margin: 0 auto;
+  top: 3vh;
+  padding: 2vh;
+  display: block;
   background-color: #dfdfdf;
-  border-radius: 300px;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 25vh;
 }
 
 .login-input {
+  font-size: 16px;
   position: relative;
   text-align: center;
   margin: 5%;
   top: 27%;
-  left: 19%;
-  width: 50%;
+  left: 17%;
+  width: 55%;
   height: 10%;
   display: block;
 }
 
 .login-input[type="submit"] {
   position: relative;
-  width: 25%;
-  left: 33%;
+  width: 30%;
+  left: 30%;
   background-color: #afafaf;
   color: white;
   border-style: none;

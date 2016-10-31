@@ -18,9 +18,9 @@ izochi.controller('TestCtrl', function($scope) {
 });
 
 izochi.controller('LoginCtrl', function($scope) {
-  /*
-  ANIMATE TYPING HEADER
-  */
+  
+  // --------- ANIMATE TYPING HEADER ---------- //
+  
   //collection of characters to type
   var eng = ['I', 'z', 'o', 'c', 'h', 'i'];
 
@@ -47,6 +47,7 @@ izochi.controller('LoginCtrl', function($scope) {
 
   loopedTyping();
 
+  // ----------- 
   console.log('hello from login page!');
 });
 
