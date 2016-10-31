@@ -13,19 +13,20 @@ div .red {
 
 .login-header {
   font-family: "Ultima-Hairline";
+  font-weight: lighter;
   position: relative;
   font-size: 35vh;
-  text-align: center;
+  left: 28%;
   width: auto;
   margin: 0;
   padding: 0;
 }
 
-.login-form {
+#form {
   position: absolute;
   height: 50vh;
   width: 50vh;
-  left: 39%;
+  left: 28%;
   top: 40%;
   background-color: #dfdfdf;
   border-radius: 300px;
