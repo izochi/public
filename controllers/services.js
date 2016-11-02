@@ -30,7 +30,7 @@ izochi.controller('LoginCtrl', function($scope) {
   var type = function() {
     var toType = eng.shift();
     document.getElementsByClassName('login-header')[0].innerHTML += toType;
-  }
+  };
 
   /*
   loopedTyping: simulates typing
@@ -43,7 +43,7 @@ izochi.controller('LoginCtrl', function($scope) {
       clearTimeout(loopTimer);
     }
     loopTimer = setTimeout(loopedTyping.bind(null, eng), 90);
-  }
+  };
 
   loopedTyping();
 
